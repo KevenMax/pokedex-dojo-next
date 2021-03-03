@@ -7,8 +7,6 @@ export default function Home(props) {
 
   const { data: pokemons } = useFetch("https://pokeapi.co/api/v2/pokedex/2");
 
-  console.log(pokemons)
-
   return (
     <div className={styles.container}>
       <Head>
